@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cart Functionality</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cart_fragment">Cart Fragment</string>
+    <string name="product_detail_fragment">Product Detail Fragment</string>
+    <string name="product_detail_Title">Product Detail </string>
+    <string name="amount">\u20B9 400</string>
+    <string name="product_name">Surf Excel Matic </string>
+    <string name="quantity">X1</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/cart_fragment">
+
+    <fragment
+        android:id="@+id/cart_fragment"
+        android:name="com.shiki.cartfunctionality.ui.Cart_Fragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart_">
+
+        <action
+            android:id="@+id/action_cart_fragment_to_check_out_fragment"
+            app:destination="@id/check_out_fragment" />
+        <action
+            android:id="@+id/action_cart_fragment_to_product_detail_fragment"
+            app:destination="@id/product_detail_fragment" />
+    </fragment>
+
+    <fragment android:id="@+id/product_detail_fragment"
+        android:name="com.shiki.cartfunctionality.ui.Produt_detail_Fragment"
+        android:label="fragment_produt_detail"
+        tools:layout="@layout/fragment_produt_detail_">
+
+    </fragment>
+
+    <fragment android:id="@+id/check_out_fragment"
+        android:name="com.shiki.cartfunctionality.ui.Check_Out_fragment"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_check_out">
+
+    </fragment>
+</navigation>
